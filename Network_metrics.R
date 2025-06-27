@@ -37,6 +37,10 @@ H2fun(bmat, H2_integer = TRUE)
 
 #Calculate d'
 
+dfun(bmat, abuns=NULL)
+
+dfun(t(bmat))
+
 specieslevel(bmat, level = "higher", index = "species specificity")
 
 # Function to compute Shannon entropy (H')
